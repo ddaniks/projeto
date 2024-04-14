@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-icon name="logo-ionitron" color="primary" size="large"></ion-icon>
+    <ion-title>Cadastro produto</ion-title>
+    <ion-button slot="end" routerLink="/lista-produtos">Voltar</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <br>
+  <ion-input type="name" fill="outline" label="Produto" labelPlacement="floating" helperText="Digite o nome do produto"
+    errorText="Nome do produto invalido" >
+  </ion-input>
+  <br>
+  <ion-input type="text" fill="outline" label="Descrição" labelPlacement="floating" helperText="Coloque uma breve descrição do produto"
+    errorText="Descrição Invalida" >
+  </ion-input>
+  <br>
+  <ion-input type="number" fill="outline" label="Preço" labelPlacement="floating" helperText="Digite o valor do produto"
+    errorText="Preço do Produto invalido">
+  </ion-input>
+  <br>
+  
+</ion-content>
